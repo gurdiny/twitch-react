@@ -67,6 +67,78 @@ export default function Content() {
       tags: ["IRL"],
       image: "https://static-cdn.jtvnw.net/ttv-boxart/509663-285x380.jpg",
     },
+    {
+      title: "Just Chatting",
+      viewers: "332.6k espectadores",
+      tags: ["IRL"],
+      image: "https://static-cdn.jtvnw.net/ttv-boxart/509658-285x380.jpg",
+    },
+    {
+      title: "Kings League",
+      viewers: "16 espectadores",
+      tags: [],
+      image: "https://static-cdn.jtvnw.net/ttv-boxart/1863222988-285x380.jpg",
+    },
+    {
+      title: "Grand Theft Auto V",
+      viewers: "277.5k espectadores",
+      tags: ["First-person"],
+      image: "https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-285x380.jpg",
+    },
+    {
+      title: "Rust",
+      viewers: "202.5k espectadores",
+      tags: ["FPS", "First-person"],
+      image: "https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-285x380.jpg",
+    },
+    {
+      title: "League of Legends",
+      viewers: "113.5k espectadores",
+      tags: ["Role-playing", "Strategy"],
+      image: "https://static-cdn.jtvnw.net/ttv-boxart/21779-285x380.jpg",
+    },
+    {
+      title: "Special Events",
+      viewers: "6.9k espectadores",
+      tags: ["IRL"],
+      image: "https://static-cdn.jtvnw.net/ttv-boxart/509663-285x380.jpg",
+    },
+    {
+      title: "Just Chatting",
+      viewers: "332.6k espectadores",
+      tags: ["IRL"],
+      image: "https://static-cdn.jtvnw.net/ttv-boxart/509658-285x380.jpg",
+    },
+    {
+      title: "Kings League",
+      viewers: "16 espectadores",
+      tags: [],
+      image: "https://static-cdn.jtvnw.net/ttv-boxart/1863222988-285x380.jpg",
+    },
+    {
+      title: "Grand Theft Auto V",
+      viewers: "277.5k espectadores",
+      tags: ["First-person"],
+      image: "https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-285x380.jpg",
+    },
+    {
+      title: "Rust",
+      viewers: "202.5k espectadores",
+      tags: ["FPS", "First-person"],
+      image: "https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-285x380.jpg",
+    },
+    {
+      title: "League of Legends",
+      viewers: "113.5k espectadores",
+      tags: ["Role-playing", "Strategy"],
+      image: "https://static-cdn.jtvnw.net/ttv-boxart/21779-285x380.jpg",
+    },
+    {
+      title: "Special Events",
+      viewers: "6.9k espectadores",
+      tags: ["IRL"],
+      image: "https://static-cdn.jtvnw.net/ttv-boxart/509663-285x380.jpg",
+    },
   ];
 
   return (
