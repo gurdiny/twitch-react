@@ -1,7 +1,7 @@
 import clsx from "clsx";
 export default function ChannelsLoop({ img, name, category, views }) {
   return (
-    <article className="grid grid-cols-5 justify-around gap-1 p-[5px_10px] hover:bg-[#26262C] h-[50px]">
+    <article className="grid grid-cols-5 justify-around gap-1 2xl:gap-3 p-[5px_10px] hover:bg-[#26262C] h-[50px]">
       <div className="col-span-1 flex items-center">
         <img className="rounded-full w-[80%] max-w-full" src={img} alt="" />
       </div>

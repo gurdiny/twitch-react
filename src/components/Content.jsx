@@ -93,14 +93,14 @@ export default function Content() {
                 </li>
               </ul>
             </div>
-            <div className="flex flex-row justify-between h-[6vh] mt-4">
+            <div className="flex flex-row justify-between h-[6vh] mt-4 2xl:h-[3vh]">
               <div className="flex flex-row items-center p-1 bg-[#18181B] border-2 border-[#67676B] border-solid rounded-md w-auto">
                 <span>
                   <SearchIcon />
                 </span>
                 <input
                   type="text"
-                  className="bg-transparent outline-none text-[#ADADB8]"
+                  className="bg-transparent outline-none text-[#ADADB8] "
                 />
               </div>
               <div className="hidden md:flex flex-row justify-between items-center">
@@ -108,7 +108,7 @@ export default function Content() {
                   Ordenar por
                 </span>
                 <select
-                  className=" p-1 bg-[#18181B] border-2 border-[#67676B] border-solid rounded-md w-[100%] text-white"
+                  className="p-1 bg-[#18181B] border-2 border-[#67676B] border-solid rounded-md w-[100%] text-white"
                   name=""
                   id=""
                 >
@@ -118,7 +118,7 @@ export default function Content() {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-9 gap-4 mt-4">
             {channelsList.map((channels) => {
               return (
                 <ChannelsCategories
