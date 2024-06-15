@@ -46,19 +46,19 @@ export default function Content() {
     {
       title: "Grand Theft Auto V",
       viewers: "277.5k espectadores",
-      tags: ["First-person Shooter"],
+      tags: ["First-person"],
       image: "https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-285x380.jpg",
     },
     {
       title: "Rust",
       viewers: "202.5k espectadores",
-      tags: ["FPS", "First-person Shooter"],
+      tags: ["FPS", "First-person"],
       image: "https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-285x380.jpg",
     },
     {
       title: "League of Legends",
       viewers: "113.5k espectadores",
-      tags: ["Role-playing Game", "Strategy"],
+      tags: ["Role-playing", "Strategy"],
       image: "https://static-cdn.jtvnw.net/ttv-boxart/21779-285x380.jpg",
     },
     {
@@ -74,7 +74,7 @@ export default function Content() {
       <section>
         <div>
           <h1 className="text-white text-[3rem] font-bold">Explorar</h1>
-          <div className="flex gap-1 mt-8 justify-between">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mt-8 ">
             {categoryList.map((category) => {
               return <Categories title={category.title} icon={category.icon} />;
             })}
@@ -103,12 +103,12 @@ export default function Content() {
                   className="bg-transparent outline-none text-[#ADADB8]"
                 />
               </div>
-              <div className="flex flex-row justify-between items-center">
+              <div className="hidden md:flex flex-row justify-between items-center">
                 <span className="text-white w-[50%] font-normal">
                   Ordenar por
                 </span>
                 <select
-                  className="p-1 bg-[#18181B] border-2 border-[#67676B] border-solid rounded-md w-[100%] text-white"
+                  className=" p-1 bg-[#18181B] border-2 border-[#67676B] border-solid rounded-md w-[100%] text-white"
                   name=""
                   id=""
                 >
@@ -118,7 +118,7 @@ export default function Content() {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
             {channelsList.map((channels) => {
               return (
                 <ChannelsCategories

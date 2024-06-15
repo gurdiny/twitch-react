@@ -1,7 +1,7 @@
 export default function ChannelsCategories({ title, viewers, tags, image }) {
   return (
     <div className="flex flex-col hover:overflow-hidden">
-      <div className="bg-[#a970ff] hover:overflow-hidden group-hover:shadow-lg">
+      <div className="lg:bg-[#a970ff] hover:overflow-hidden group-hover:shadow-lg">
         <img
           className="hover:ml-2 hover:mb-2 hover:overflow-hidden transition-transform duration-300 transform group-hover:scale-105"
           src={image}
@@ -15,7 +15,7 @@ export default function ChannelsCategories({ title, viewers, tags, image }) {
       <ul className="flex flex-row gap-1 mt-1">
         {tags.map((tag) => {
           return (
-            <li className="text-[#ADADB8] text-[12px] bg-[#2F2F35] rounded-lg pl-2 pr-2">
+            <li className="text-[#ADADB8] sm:text-[12px] text-[10px] bg-[#2F2F35] rounded-lg pl-2 pr-2">
               {tag}
             </li>
           );

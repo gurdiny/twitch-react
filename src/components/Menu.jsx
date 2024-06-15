@@ -39,7 +39,7 @@ export default function Menu() {
     },
   ];
   return (
-    <aside className=" bg-[#1F1F23] ">
+    <aside className=" bg-[#1F1F23] hidden lg:overflow-hidden lg:flex w-full">
       <div className="flex flex-col gap-1">
         <div className="m-[0_1rem] h-[50px] flex items-center w-auto ">
           <h2 className=" text-white text-sm font-semibold ">
