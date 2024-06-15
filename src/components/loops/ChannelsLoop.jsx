@@ -7,7 +7,9 @@ export default function ChannelsLoop({ img, name, category, views }) {
       </div>
       <div className="col-span-4 flex flex-row flex-3 items-center justify-between ">
         <div className="flex flex-col gap-0">
-          <p className="text-white text-sm font-semibold">{name}</p>
+          <p className="text-white text-sm 2xl:text-[10px] font-semibold">
+            {name}
+          </p>
           <p className="text-[12px] text-[#adadb8]">{category}</p>
         </div>
         <div className="flex flex-row">
