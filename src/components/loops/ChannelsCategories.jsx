@@ -1,3 +1,4 @@
+import clsx from "clsx";
 export default function ChannelsCategories({ title, viewers, tags, image }) {
   return (
     <div className="flex flex-col hover:overflow-hidden">
@@ -13,7 +14,11 @@ export default function ChannelsCategories({ title, viewers, tags, image }) {
           alt=""
         />
       </div>
-      <h2 className="text-white text-sm font-bold hover:text-[#a970ff]">
+      <h2
+        className={clsx("text-white text-sm font-bold hover:text-[#a970ff]", {
+          "bg-[#a970ff]": tags.includes("First-person"),
+        })}
+      >
         {title}
       </h2>
       <p className="text-[12px] text-[#adadb8]">{viewers}</p>
