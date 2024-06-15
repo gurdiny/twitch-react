@@ -93,7 +93,7 @@ export default function Content() {
                 </li>
               </ul>
             </div>
-            <div className="flex flex-row justify-between h-[6vh] mt-4 2xl:h-[3vh]">
+            <div className="flex flex-row justify-between h-[4vh] mt-4 2xl:h-[3vh]">
               <div className="flex flex-row items-center p-1 bg-[#18181B] border-2 border-[#67676B] border-solid rounded-md w-auto">
                 <span>
                   <SearchIcon />
